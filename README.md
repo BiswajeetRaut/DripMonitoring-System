@@ -1,12 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Project Description:
+## Project Description
 This project aims to alert hospital staff about the drip level of the patient.So, once the drip is set then the nurse can register and start 
 monitoring of the drip level. So, the drip is monitored with using a ultrasonic sensor and then the sensor results i.e, the value of the distance between sensor and the water level is sent to the firebase database and then the website extracts the value and calculates the drip level left. If drip ledt is less than 20 percent then an email is sent to the resgistered email of the nurse.
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `yarn start`
 
